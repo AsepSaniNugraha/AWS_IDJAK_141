@@ -36,9 +36,10 @@ print(myProgList[3:])
 myComplexDict = {
     "nama" : "Abdul Basri",
     "alamat" : {
-        "kota" : "Jakarta Barat",
+        "kota" : "Jakarta Selatan",
         "provinsi" : "DKI Jakarta"
     }
 }
 
 print(myComplexDict["nama"] + " Alamat, " + myComplexDict["alamat"]["kota"], myComplexDict["alamat"]["provinsi"])
+print(type(myComplexDict))
