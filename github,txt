@@ -1,0 +1,5 @@
+ssh-add ~/.ssh/github
+git pull (to update your Cloud9 with GitHub changes)
+git add .
+git commit -m "message"
+git push
